@@ -1,0 +1,381 @@
+header {
+    width: 100%;
+    height: 10%;
+    background: red;
+}
+
+body {
+    text-align: center;
+    width: 100%;
+    background: #594d94;
+    display: block;
+
+}
+
+
+.logo {
+    position: absolute;
+    display: block;
+    width: 25vh;
+
+    left: 50%;
+    top: 20%;
+    transform: translate(-50%, -50%);
+
+}
+
+.fondo {
+    position: absolute;
+
+    transform: translate(-50%, -4%);
+
+    width: 100%;
+    height: 150%;
+}
+
+.cuerpo{
+    display: flex;
+}
+
+.welcome {
+
+    font-family: Nunito;
+    font-weight: 300;
+    font-style: normal;
+    color: #FFFFFF;
+    font-size: 400%;
+
+    position: absolute;
+    display: flex;
+    transform: translate(-50%, -50%);
+
+    left: 50%;
+    top: 37%;
+
+
+}
+
+.traveler {
+
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: bold;
+    color: #FFFFFF;
+    font-size: 250%;
+    display: flex;
+    position: absolute;
+   
+    transform: translate(-50%, -50%);
+
+    left: 50%;
+    top: 44%;
+
+
+}
+
+
+
+.fondoIndex {
+
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    background-color: #EDEDED;
+
+    background-color: #A7CBCD;
+
+}
+
+#primerparrafo {
+    position: absolute;
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: bold;
+    color: #FFFFFF;
+    font-size: 160%;
+    text-align: center;
+    top: 55%;
+    left: 15%;
+    right: 15%;
+}
+
+#segundoparrafo {
+    position: absolute;
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: bold;
+    color: #FFFFFF;
+    font-size: 160%;
+    text-align: center;
+
+    top: 85%;
+    left: 15%;
+    right: 15%;
+}
+
+#español {
+    position: absolute;
+    top: 108%;
+    left: 24%;
+    width: 25%;
+}
+
+#ingles {
+    position: absolute;
+    top: 110%;
+    left: 57%;
+    width: 25%;
+}
+
+.botones {
+
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 85%;
+    left: 50%;
+
+
+
+
+}
+
+.botones img {
+    width: 100%;
+}
+
+.volver {
+    position: absolute;
+    top: 130%;
+    left: 49%;
+
+}
+
+.volver img {
+    width: 100%;
+}
+
+#moreabout {
+    position: absolute;
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: bold;
+    color: #FFFFFF;
+    font-size: 3vh;
+    text-align: center;
+
+    top: 60%;
+    left: 15%;
+    right: 15%;
+
+}
+
+.imagen {
+
+    width: 100%;
+}
+
+.imagen img {
+    width: 100%;
+}
+
+
+.textos {
+
+    font-family: Nunito;
+    font-style: normal;
+
+    color: black;
+    font-size: 3vh;
+    text-align: center;
+    text-justify: distribute-all-lines;
+
+    margin-left: 10%;
+    margin-right: 10%;
+
+    right: 15%;
+}
+
+.titulos {
+    font-weight: bold;
+
+}
+
+.bodyBlanco {
+    text-align: center;
+    width: 100%;
+    background: rgb(0, 0, 0);
+    display: block;
+}
+
+.contenido {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    text-align: center;
+
+
+
+}
+
+.botones2 {
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+
+    transform: translate(25%);
+
+}
+
+.controles {
+
+    display: flex;
+
+    flex-direction: row;
+    margin: auto;
+}
+
+.boton {
+
+    display: none;
+    margin-left: 30px;
+    text-align: center;
+    color: #FFFFFF;
+    line-height: 40px;
+    border-radius: 10px;
+    width: 100px;
+    height: 40px;
+    background-color: #594d94;
+}
+
+.boton.activated {
+    display: block;
+
+}
+
+.reproducir {
+
+    height: 40px;
+    margin-top: 15px;
+    margin-left: 20px;
+}
+
+.reproducirI {
+    display: none;
+    height: 40px;
+    margin-top: 15px;
+}
+
+.reproducirI.activated {
+    display: block;
+}
+
+
+
+
+
+
+@media (max-width: 750px) {
+
+
+    .perfil {
+        width: 370px;
+        height: 90px;
+        font-size: 17px;
+        -webkit-transition: width 0.5s ease-in-out, height 0.5s ease-in-out, font-size 0.5s ease-in-out;
+        -o-transition: width 0.5s ease-in-out, height 0.5s ease-in-out, font-size 0.5s ease-in-out;
+        transition: width 0.5s ease-in-out, height 0.5s ease-in-out, font-size 0.5s ease-in-out;
+
+    }
+
+    .perfilIcon {
+
+        padding-right: 12px;
+        width: 80px;
+        -webkit-transition: width 0.5s ease-in-out;
+        -o-transition: width 0.5s ease-in-out;
+        transition: width 0.5s ease-in-out;
+
+    }
+
+    .go {
+        width: 26px;
+        -webkit-transition: width 0.5s ease-in-out;
+        -o-transition: width 0.5s ease-in-out;
+        transition: width 0.5s ease-in-out;
+
+    }
+}
+
+
+
+@media (max-width: 500px) {
+
+    .perfil {
+        width: 220px;
+        height: 70px;
+        font-size: 12px;
+        -webkit-transition: width 0.5s ease-in-out, height 0.5s ease-in-out, font-size 0.5s ease-in-out;
+        -o-transition: width 0.5s ease-in-out, height 0.5s ease-in-out, font-size 0.5s ease-in-out;
+        transition: width 0.5s ease-in-out, height 0.5s ease-in-out, font-size 0.5s ease-in-out;
+
+    }
+
+    .perfilIcon {
+        padding-left: 10px;
+        padding-right: 10px;
+        width: 60px;
+        -webkit-transition: width 0.5s ease-in-out;
+        -o-transition: width 0.5s ease-in-out;
+        transition: width 0.5s ease-in-out;
+
+    }
+
+    .go {
+        width: 20px;
+        padding-right: 15px;
+        -webkit-transition: width 0.5s ease-in-out;
+        -o-transition: width 0.5s ease-in-out;
+        transition: width 0.5s ease-in-out;
+
+    }
+}
+
+
+
+@media (max-width: 250px) {
+
+    .perfil {
+        width: 150px;
+        height: 60px;
+        font-size: 10px;
+        -webkit-transition: width 0.5s ease-in-out, height 0.5s ease-in-out, font-size 0.5s ease-in-out;
+        -o-transition: width 0.5s ease-in-out, height 0.5s ease-in-out, font-size 0.5s ease-in-out;
+        transition: width 0.5s ease-in-out, height 0.5s ease-in-out, font-size 0.5s ease-in-out;
+    }
+
+    .perfilIcon {
+        padding-left: 5px;
+        padding-right: 5px;
+        width: 50px;
+        -webkit-transition: width 0.5s ease-in-out;
+        -o-transition: width 0.5s ease-in-out;
+        transition: width 0.5s ease-in-out;
+    }
+
+    .go {
+        width: 15px;
+        padding-right: 10px;
+        -webkit-transition: width 0.5s ease-in-out;
+        -o-transition: width 0.5s ease-in-out;
+        transition: width 0.5s ease-in-out;
+    }
+
+}
